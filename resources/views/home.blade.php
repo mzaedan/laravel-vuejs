@@ -10,24 +10,20 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <title>Laravel & Vue JS</title>
 </head>
 <body class="hold-transition sidebar-mini">
-<div class="wrapper">
+<div class="wrapper" id="app">
 
   <!-- Navbar -->
   @include('template.navbar')
-  <!-- /.navbar -->
   @include('template.sidebar')
   <!-- Main Sidebar Container -->
   
 
   <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper" id="app">
+  <div class="content-wrapper">
 
     <!-- Main content -->
     <div class="content">
-      <div class="container-fluid">
-        <example-component></example-component>
-
-      </div><!-- /.container-fluid -->
+        <router-view></router-view>
     </div>
     <!-- /.content -->
   </div>
