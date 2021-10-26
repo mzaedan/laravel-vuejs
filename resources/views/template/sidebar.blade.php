@@ -23,7 +23,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item menu-open">
-            <a href="#" class="nav-link active">
+            <a href="#" class="nav-link">
               <i class="fas fa-tachometer-alt nav-icon "></i>
               <p>
                 Starter Pages
@@ -32,14 +32,20 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <router-link to="data-user" class="nav-link active">
-                  <i class="fas fa-users nav-icon"></i>
+                <router-link to="data-user" class="nav-link">
+                  <i class="fas fa-users nav-icon blue"></i>
                   <p>Data User</p>
                 </router-link>
               </li>
               <li class="nav-item">
+                <router-link to="data-level" class="nav-link">
+                  <i class="fas fa-layer-group nav-icon green"></i>
+                  <p>Data Level</p>
+                </router-link>
+              </li>
+              <li class="nav-item">
                 <a href="#" class="nav-link">
-                  <i class="fas fa-sign-out-alt"></i>
+                  <i class="fas fa-sign-out-alt red"></i>
                   <p>Log Out</p>
                 </a>
               </li>

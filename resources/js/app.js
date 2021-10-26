@@ -13,7 +13,8 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
 let routes = [
-    { path: '/data-user', component:require('./components/Pengguna/Data-pengguna.vue').default }
+    { path: '/data-user', component:require('./components/Pengguna/Data-pengguna.vue').default },
+    { path: '/data-level', component:require('./components/Pengguna/Data-level.vue').default },
 ]
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
